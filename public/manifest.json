@@ -11,13 +11,26 @@
       "48": "icon_48.png",
       "128": "icon_128.png"
     },
+    "background": {
+      "service_worker": "content-script.js"
+    },
   "permissions": ["activeTab"],
+  "optional_permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://*.example.com/*"],
+      "css": ["my-styles.css"],
+      "js": ["content-script.js"],
+      "run_at": "document_idle"
+    }
+  ],
   "chrome_url_overrides": {
     "newtab": "index.html"
   },
-  "host_permissions": ["*://*.example.com/*"],
   "action": {
     "default_icon": "icon_16.png",
-    "default_popup": "index.html"
+    "default_title": "Click to show an alert"
   }
 }
