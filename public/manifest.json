@@ -12,12 +12,11 @@
       "128": "icon_128.png"
     },
     "background": {
-      "scripts": "content-script.js"
+      "service_worker": "content-script.js"
     },
   "permissions": ["activeTab"],
   "content_scripts": [
     {
-      "matches": ["https://*.example.com/*"],
       "js": ["content-script.js"],
       "run_at": "document_idle"
     }
@@ -27,6 +26,7 @@
   },
   "action": {
     "default_icon": "icon_16.png",
-    "default_title": "Click to show an alert"
+    "default_title": "Chrome Counter Extension",
+    "default_popup": "index.html"
   }
 }
