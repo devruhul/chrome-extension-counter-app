@@ -1,0 +1,46 @@
+
+
+/* Make center counter component */
+.container{
+    width: 100%;
+    height: 100%;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    width: 50%;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+/* Count value style */
+.counter-value{
+    font-size: 30px;
+    font-weight: bold;
+}
+/* Button container styles */
+.button-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+/* Buttons style */
+.button-increment{
+    padding: 10px;
+    color: lightcoral;
+    font-size: 20px;
+}
+.button-reset{
+    padding: 10px;
+    color: lightcoral;
+    font-size: 20px;
+}
+.button-decrement{
+    padding: 15px;
+    color: lightcoral;
+    font-size: 20px;
+}
