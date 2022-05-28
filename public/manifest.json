@@ -4,15 +4,13 @@
   "author":"Ruhul Amin",
   "version": "1.1",
   "manifest_version": 3,
-  "icons": [
+  "icons": 
     {
       "16": "icon_16.png",
       "32": "icon_32.png",
       "48": "icon_48.png",
       "128": "icon_128.png"
-    }
-
-  ],
+    },
   "background": {
     "service_worker": "contentScript.js"
   },
