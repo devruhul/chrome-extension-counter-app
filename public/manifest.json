@@ -11,9 +11,6 @@
       "48": "icon_48.png",
       "128": "icon_128.png"
     },
-  "background": {
-    "service_worker": "service_worker.js"
-  },
   "permissions": ["activeTab"],
   "chrome_url_overrides": {
     "newtab": "index.html"
