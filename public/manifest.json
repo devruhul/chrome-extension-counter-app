@@ -12,12 +12,8 @@
       "128": "icon_128.png"
     },
   "background": {
-    "service_worker": "contentScript.js"
+    "service_worker": "service_worker.js"
   },
-  "start_url": "index.html",
-  "display": "standalone",
-  "theme_color": "lightblue",
-  "background_color": "#ffffff",
   "permissions": ["activeTab"],
   "chrome_url_overrides": {
     "newtab": "index.html"
