@@ -1,6 +1,7 @@
 {
   "name": "Chrome Counter Extension",
   "description": "A nice little counter extension.",
+  "author":"Ruhul Amin",
   "version": "1.1",
   "manifest_version": 3,
   "icons": [
@@ -13,13 +14,16 @@
 
   ],
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "contentScript.js"
   },
   "start_url": "index.html",
   "display": "standalone",
   "theme_color": "lightblue",
   "background_color": "#ffffff",
   "permissions": ["activeTab"],
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
   "host_permissions": ["*://*.example.com/*"],
   "action": {
     "default_icon": "icon_16.png",
