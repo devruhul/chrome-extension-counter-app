@@ -11,11 +11,14 @@
       "48": "icon_48.png",
       "128": "icon_128.png"
     },
+    "background": {
+      "service_worker": "background.js"
+    },
   "permissions": ["activeTab"],
   "content_scripts": [
     {
       "matches": ["http://*/*", "https://*/*"],
-      "js": ["content.js"],
+      "js": ["background.js"],
       "all_frames": false,
       "run_at": "document_end"
     }
