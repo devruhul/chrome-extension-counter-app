@@ -29,7 +29,7 @@ const Counter = () => {
 
     // get localStorage and set count
     useEffect(() => {
-        // get localStorage
+        // get localStorage count
         const localCounter = Number(localStorage.getItem('count'));
         if (localCounter) {
             setCount(localCounter);
