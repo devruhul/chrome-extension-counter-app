@@ -26,7 +26,6 @@
   "action": {
     "default_icon": "icon_16.png",
     "default_title": "Chrome Counter Extension",
-    "default_popup": "index.html",
-    "click": "index.html"
+    "default_popup": "index.html"
   }
 }
