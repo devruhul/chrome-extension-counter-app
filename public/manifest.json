@@ -3,19 +3,22 @@
   "description": "A nice little counter extension.",
   "version": "1.1",
   "manifest_version": 3,
-  "icons": {
-    "16": "icon_16.png",
-    "32": "icon_32.png",
-    "48": "icon_48.png",
-    "128": "icon_128.png"
-  },
+  "icons": [
+    {
+      "16": "icon_16.png",
+      "32": "icon_32.png",
+      "48": "icon_48.png",
+      "128": "icon_128.png"
+    }
+
+  ],
   "background": {
     "service_worker": "background.js"
   },
   "start_url": "index.html",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "lightblue",
+  "theme_color": "lightblue",
+  "background_color": "#ffffff",
   "permissions": ["activeTab"],
   "host_permissions": ["*://*.example.com/*"],
   "action": {

@@ -1,6 +1,5 @@
 import './App.css';
-import Counter from './Pages/Home/Counter/Counter';
-// import Home from './Pages/Home/Home';
+import Counter from './Counter/Counter';
 
 function App() {
   return (
