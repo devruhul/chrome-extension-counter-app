@@ -10,7 +10,8 @@ This is a simple Chrome counter extension that counts the number of counts a use
 
 - Install [Node.js LTS](https://nodejs.org/en/) (if you already install Node.js latest version don't need to install again). Download the source code (or check out from git).
 
- - Then run the following command in your terminal:
+- Then run the following command in your terminal:
+
 - `npm install`
 
 - Then edit the app what you want to do. After that run:
