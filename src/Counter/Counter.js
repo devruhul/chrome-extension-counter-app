@@ -48,14 +48,14 @@ const Counter = () => {
                     </h3>
                     <div className="button-container">
                         <button
-                            onClick={handleIncrementCounter} className="button-increment">Increment
+                            onClick={handleIncrementCounter} className="button-increment">+
                         </button>
                         <button
                             onClick={handleResetCounter} className="button-reset"
                         >Reset</button>
                         <button
                             onClick={handleDecrementCounter} className="button-decrement"
-                        >Decrement</button>
+                        >-</button>
                     </div>
                 </div>
             </div>

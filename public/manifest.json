@@ -17,15 +17,10 @@
   "permissions": ["activeTab"],
   "content_scripts": [
     {
-      "matches": ["http://*/*", "https://*/*"],
-      "js": ["background.js"],
-      "all_frames": false,
-      "run_at": "document_end"
+      "matches": ["https://*/*"],
+      "js": ["background.js"]
     }
   ],
-  "chrome_url_overrides": {
-    "newtab": "index.html"
-  },
   "action": {
     "default_icon": "icon_16.png",
     "default_title": "Chrome Counter Extension",
